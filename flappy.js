@@ -69,17 +69,17 @@ function changeScore() {
 }
 
 function moveRight() {
-    player.x=player.x+1
+    player.x=player.x+10
 }
 
 function moveLeft() {
-    player.x=player.x-1
+    player.x=player.x-10
 }
 
 function moveUp() {
-    player.y=player.y-1
+    player.y=player.y-10
 }
 
 function moveDown() {
-    player.y=player.y+1
+    player.y=player.y+10
 }
